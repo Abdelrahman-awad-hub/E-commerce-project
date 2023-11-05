@@ -11,7 +11,7 @@ export const initiateApp = (app, express) => {
     app.use(cors()); //allow anyOne
 
     app.get("/", (req, res, next) => {
-        res.json({ message: "Welcome Abdelrahman" });
+        res.json("Welcome Abdelrahman");
     });
 
     app.use("/category", routers.categoryRouter);
