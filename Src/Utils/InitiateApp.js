@@ -19,7 +19,7 @@ export const initiateApp = (app, express) => {
     app.use("/brand", routers.BrandsRouter);
     app.use("/product", routers.productRouter);
     app.use("/coupon", routers.couponRouter);
-    app.use("/user", routers.userRouter);
+    // app.use("/user", routers.userRouter);
     app.use("/auth", routers.authRouter);
     app.use("/cart", routers.cartRouter);
     app.use("/order", routers.orderRouter);
